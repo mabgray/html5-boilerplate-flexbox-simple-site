@@ -94,6 +94,62 @@ body {
   margin:0;
   padding:0
 }
+header{
+  padding: 50px;
+  text-align:center;
+  background-color:beige;
+}
+nav{
+  display: flex;
+  flex-direction:row;
+  background-color: pink;
+  justify-content:space-around;
+}
+nav a{
+ text-decoration: none;
+ padding: 14px 20px;
+ 
+}
+
+.row {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30px;
+  background-color:sandybrown;
+  padding: 20px;
+
+}
+section{
+  flex: 70%;
+  background-color: #999;
+  padding: 20px;
+
+}
+footer {
+  padding: 20px;
+  text-align:center;
+  background-color: palevioletred;
+}
+
+@media screen and (max-width: 700px){
+  nav, .rown {
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
